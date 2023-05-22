@@ -1,0 +1,5 @@
+- name: test roles
+  hosts: all
+  gather_facts: false
+  roles:
+  - role: test
